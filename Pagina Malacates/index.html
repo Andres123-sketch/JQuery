@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/Estilo.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="icon" href="./img/logosmall_Malacates_icon.png">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      #panel,#Up, #Down
+      {
+          padding: 5px;
+          text-align: center;
+          background-color: #C9D3D9;
+          border: solid 1px;
+          border-color: black;
+      }
+
+      #flip,#panel2
+      {
+        padding: 5px;
+          text-align: center;
+          background-color: #F3C066;
+          border: solid 1px;
+          border-color: black;
+      }
+
+      #panel
+      {
+          padding: 50px;
+      }
+  </style>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img src="./img/logo-malacates-150.png" alt="" width="150px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Malacates
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Integrantes</a></li>
+                      <li><a class="dropdown-item" href="#">Historia</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Fotos</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <title>Home - Malacates Trebol Shop</title>
+
+    <!-- <img src="./img/mts-2021.jpg" alt="" width="100%" height="50%" class="img-fluid"> -->
+
+    <div class="container-fluid" id="img-fondo">
+      <div class="container" id="img-25">
+        <img src="/img/25-logo1.png" alt="" class="img-fluid" width="250px" height="215px" id="img-25">
+        <h1 id="titulo_fondo">Malacates Trébol shop / desde 1997 ☘️</h1>
+      </div>
+      
+    </div>
+    <div class="container-fluid" id="img-abajo">
+      <div class="container">
+        <img class="img-fluid" src="/img/logo-malacates-2.png" alt="" style="padding-top: 15px;" width="150px" height="100px">
+      <h4 id="titulo_texto">¿CON QUÉ CANCIÓN NOS CONOCISTE?</h4>
+      <p id="parrafo-inicio">La historia de Malacates Trebol Shop se resume en sus canciones, pero también en sus anécdotas de escenarios, viajes y grabaciones con personalidades relevantes de la música latinoamericana.</p>
+      <button class="btn first" id="show">Motrar</button>
+      <button class="btn first" id="hide">Ocultar</button>
+      <div class="container" id="contenedor-canciones">
+        <div class="container" id="tarjetas-canciones">
+          <img src="/img/a-quien-corresponda-Malacates-frame.jpg" alt="" width="200px" height="200px">
+          <p id="texto_cancion">A Quién Corresponda</p>
+        </div>
+        <div class="container" id="tarjetas-canciones">
+          <img src="/img/portada-paquete.jpg" alt="" width="200px" height="200px">
+          <p id="texto_cancion">Paquetecuetes</p>
+        </div>
+        <div class="container" id="tarjetas-canciones">
+          <img src="/img/01-De-Que-Sirve-Querer-mp3-image.jpg" alt="" width="200px" height="200px">
+          <p id="texto_cancion">¿De Qué Sirve Querer?</p>
+        </div>
+      </div>
+
+      <h4 id="titulo-historia">Historia</h4>
+      <img src="/img/luna-de-xelaju-paco-perez-malacates.jpg" alt="" ><br><br>
+        <p style="text-align: left;" id="parrafo-inicio">A principios de Febrero de 1997 el Grunge reinaba en Guatemala. Grandes bandas como Bohemia Suburbana, Viernes Verde y La Tona Reinaban las frecuencias radiales. <br><br>
+
+          Radios como «Phoenix» o «Atmósfera» o «laMetro» sonaban lo mejor del Grunge chapín y los conciertos siempre estaban a reventar. <br><br>
+          
+          Había un resurgir de música nueva y se escuchaba hablar de nuevas bandas, nuevas propuestas que surgían de un movimiento nuevo, quizás era grunge, quizás rock, eran grupos nuevos que estaban aprovechando las nuevas tecnologías para grabar su música original mientras se empezaban a crear grupos de seguidores de esas bandas. <br><br>
+          
+          Francisco Páez era estudiante de arquitectura y con otros amigos de la misma carrera habían formado un grupo de covers. Esto fue suficiente excusa para que Juan Luis «Piolly» Lopera, ex bajista de Bohemia Suburbana, le sugiriera en un encuentro en el supermercado hacer una banda nueva con un ritmo relativamente desconocido en Guatemala, el SKA. <br><br></p>
+
+          <h4 id="titulo-historia">Primera Reunión de Malacates</h4>
+
+          <div id="Up">Mostrar Información</div>
+          <div id="panel">
+          <p style="text-align: left;" id="parrafo-inicio">El 6 de febrero de 1997 convocamos a la reunión a los antiguos miembros de esa banda de covers de la universidad y liderados por Piolly nos reunimos a hablar del nuevo proyecto, relata Páez. <br><br>
+
+            Julio Fonseca (Chita) sugirió entre bromas que debíamos ponerle un nombre relajado, nada de nombres complicados ni ideologías extrañas que en ese entonces abundaban entre las bandas famosas guatemaltecas. <br><br>
+            
+            Alguno sugirió «Canchinflín Godínez», otro, «champurradas» otro «Kalimán me debe 20 varas» etc. Chita entonces insistió que debería ser algo que resumiera la esencia del Ska, los llamados «Rudeboys» de Jamaica eran algo así como los «rudos» y entonces sugirió «Malacates». <br><br>
+            
+            Todos nos reímos y alguien recordó que en el trébol había un lugar que era de muy mala fama y que «ni ahí nos iban a dejar tocar» , fue entonces que se le sumó «Trebol Show», «Perú» era el encargado de documentarlo todo, se confunde y escribe: «Shop». <br><br>
+            
+            Honestamente jamás pensamos que el nombre iba a ser algo importante, no le teníamos mucha esperanza al nuevo proyecto, quizás 2 o 3 meses. <br><br>
+            
+            Decidimos iniciar los ensayos el mismo día después y fue así como el 7 de Febrero de 1997 nacen las primeras notas de Malacates Trébol Shop. <br><br></p>
+
+            <img src="/img/malacates-97-a.jpg" alt="" ><br><br>
+          </div>
+            <div id="Down">Ocultar Información</div> <br><br><br>
+
+            <div id="flip">Contáctanos</div>
+            <div id="panel2">
+              <a href="https://www.facebook.com/malacates">Facebook</a><br>
+              <a href="https://www.instagram.com/malacates/?hl=es">Instagram</a><br>
+              <a href="https://malacates.com/23-aniversario-de-malacates/">23 Aniversario de la Banda</a><br>
+            </div><br><br>
+
+            <div class="container" id="div1">
+              <button class="btn first" id="">Animar</button><br>
+              <img src="/img/primer-dia-del-tico-1024x676.jpg" alt="">
+            </div>
+      </div>
+    
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  //Funcion No.1
+  $(document).ready(function()
+        {
+            $("#hide").click(function()
+            {
+                $("#contenedor-canciones").hide(); //Llamamos la función hide
+            })
+
+            $("#show").click(function()
+            {
+                $("#contenedor-canciones").show(); //Llamamos la función show
+            })
+          }) 
+          
+  //Funcion No.2
+          $(document).ready(function()
+        {
+            $("#Up").click(function(){
+                $("#panel").slideUp("slow");
+            });
+            $("#Down").click(function(){
+                $("#panel").slideDown("slow");
+            });
+        })
+  //Funcion No.3
+        $(document).ready(function()
+        {
+            $("#flip").click(function()
+            {
+                $("#panel2").slideToggle("slow")
+            })
+        })
+
+      //Funcion No.4
+        $(document).ready(function(){
+     $("#div1").click(function(){
+          $(this).animate({  
+            width: 500
+          }, 'slow', function() {alert('se ha completado')});
+    })
+  });
+</script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+</body>
+</html>
